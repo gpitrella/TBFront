@@ -1,0 +1,28 @@
+.main_container_app {
+	display: flex;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	justify-content: center;
+	width: 100%;
+}
+.box_container_app {
+	width: 1000px;
+	display: flex;
+  flex-direction: column;
+}
+
+.title_app {
+  background-color: rgb(196, 84, 84);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_change {
+	width: 160px;
+	box-shadow: 2px 3px 5px rgba(150, 150, 150, 0.5);
+	cursor: pointer;
+}
+
